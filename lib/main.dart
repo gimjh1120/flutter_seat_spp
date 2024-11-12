@@ -28,8 +28,8 @@ class _SeatPageState extends State<SeatPage> {
 
   void onSelected(int row, int col) {
     setState(() {
-      selectedRow == row;
-      selectedCol == col;
+      selectedRow = row;
+      selectedCol = col;
     });
   }
 
